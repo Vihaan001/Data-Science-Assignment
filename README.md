@@ -10,6 +10,16 @@ The data consists of two datasets:
 
 *(Note: "leverage" was not present in the historical dataset provided, hence we analyzed trade sizes using `Size USD` as the proxy for positional sizing.)*
 
+## Key Visualizations
+Below is a rapid glimpse of the correlations between trader performance, volume/size behavior, and Bitcoin sentiment:
+
+<p align="center">
+  <img src="charts/avg_daily_pnl_by_sentiment.png" alt="Average Daily PnL vs Sentiment" width="45%">
+  <img src="charts/avg_trade_freq_by_sentiment.png" alt="Average Trade Frequency vs Sentiment" width="45%">
+</p>
+
+*(All 6 generated analytical charts can be explored within the `charts/` directory.)*
+
 ## File Structure
 - `analysis_notebook.ipynb` - The primary Jupyter Notebook with end-to-end data preparation, engineered metrics, descriptive visual analysis, segmentation, and a basic predictive model.
 - `analysis.py` - Core analysis script that generates key metrics and static `.png` visualizations.
